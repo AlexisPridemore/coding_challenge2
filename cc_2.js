@@ -37,4 +37,17 @@ console.log("Updated products:", products);   //Print the array of products
 
  console.log(employee);    //Print the obbject of employee
 
+ // Task 4 Array of Objects
+ 
+ let customers = [
+    {name: "Caitlyn Clark", email: "Clark22@gmail.com", purchaseAmount: 125},
+    {name: "Nikola Jokic", email: "Joker15@gmail.com", purchaseAmount: 285},
+    {name: "Jamal Murray", email: "Murray27@gmail.com", purchaseAmount: 750}
+ ];    // Array of objects of customers
+
+ console.log(customers);    //Print the array of objects of customers
+
+ customers.push({name: "Christian Braun", email: "Braun2@gmail.com", purchaseAmount: 125});    //Add a new customer to the array 
+
+ console.log(customers);    //Print the array of objects of customers
  
