@@ -50,4 +50,19 @@ console.log("Updated products:", products);   //Print the array of products
  customers.push({name: "Christian Braun", email: "Braun2@gmail.com", purchaseAmount: 125});    //Add a new customer to the array 
 
  console.log(customers);    //Print the array of objects of customers
+
+ // Task 5 Object Methods
+
+ let order = {
+    orderId: "456",
+    customerName: "Micheal Jodran",
+    amount: 80,
+    calculateTax: function() {
+        const taxRate = 0.10;    //Tax rate
+        return this.amount * taxRate;    //Calculate the tax amount 
+    }
+ };   //Object of order
+
+ console.log(order);    //Print the object of order
+ console.log(order.calculateTax());    //Print the tax amount
  
